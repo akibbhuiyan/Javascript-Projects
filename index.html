@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" />
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <title>Movie App</title>
+</head>
+<body>
+    <header>
+        <form action="" id="form">
+            <input type="text" id="search" placeholder="Search" class="search">
+            <label for="search" class="btn"><i class="fas fa-search"></i></label>
+        </form>
+        </header>
+
+    <div class="tags" id="tags"></div>
+    <div id="myNav" class="overlay">
+
+        <!-- Button to close the overlay navigation -->
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      
+        <!-- Overlay content -->
+        <div class="overlay-content" id="overlay_content"> </div>
+        <a href="javascript:void(0)" class="arrow left_arrow" id="left_arrow">&laquo;</a>
+        <a href="javascript:void(0)" class="arrow right_arrow" id="right_arrow">&raquo;</a>
+      
+      </div>
+   <main id="main"></main>
+   <div class="pagenation">
+       <div class="page " id="prev"><i class="fas fa-angle-double-left"></i>Previous</div>
+       <div class="current" id="current">1</div>
+       <div class="page" id="next">Next    <i class="fas fa-angle-double-right"></i></div>
+   </div>
+</body>
+</html>
